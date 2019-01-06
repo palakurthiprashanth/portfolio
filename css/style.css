@@ -535,6 +535,27 @@ body {
 	margin-top: 25px;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
+/* Styles */
+  .main {
+	  font-size: 20px !important;
+  }
+
+  .sub {
+	  font-size: 18px !important;
+  }
+
+  img {
+	  width: 100%;
+	  margin-top: 15px;
+	  border: 1px solid blue;
+  }
+
+  p {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
 
 
 
